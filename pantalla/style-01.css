@@ -1,0 +1,45 @@
+body{
+    background-color:  #ffe4c4;
+
+}
+.login-admin h1{/*falta acá */
+    display: inline-block; /*achica el tamaño de los bordes al del texto*/
+    text-align: center; /* centra el contenido(las cajas) */
+    text-shadow: 1px 4px 10px;
+    font-size:250%;
+    border-bottom: 2px solid black;
+    border-left: 2px solid  black;
+    border-radius: 10px;
+    padding: 1% 10%;
+}
+
+.login-01{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    border: 2px hidden; /*borde falso para ver el flex*/
+}
+.login-01 form{
+    background-color: rgba(240, 248, 255, 0.753);
+    border: 1cap solid rgba(97, 92, 85, 0.63);
+    border-radius: 10px;
+    padding: 5% 10%;
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 600px) {
+    .login-01 {
+        padding: 5%;
+        flex-direction: column; /* apila los elementos */
+    }
+
+    .login-01 form {
+        width: 100%;
+        padding: 5%;
+    }
+
+    .login-admin h1 {
+        font-size: 150%;
+        padding: 2% 5%;
+    }
+}

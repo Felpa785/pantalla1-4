@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+    color:black;
+    padding: 10px;
+}
+
+header {
+    font-size: 20px;
+    box-shadow: 3px 3px 3px 3px;
+}
+table{
+    margin: 0 auto /*importante-----------------------*/
+}
+table th,td,tr{
+    padding: 10px;
+    border:2px solid black;
+}
+.productos{
+    color:rgb(59, 224, 197);
+    text-decoration: none; /*importante-----------------------*/
+}
+a:hover {
+    text-decoration: underline; /* o none si no querés nada */
+    color: darkred;
+    transition: 0.3s; /*tiempo de cambiar de color*/
+  }
